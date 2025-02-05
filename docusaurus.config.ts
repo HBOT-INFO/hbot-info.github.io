@@ -17,8 +17,9 @@ const config: Config = {
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "YarinNaftali", // Usually your GitHub org/user name.
-	projectName: "hbot-website", // Usually your repo name.
+	organizationName: "hbot-info", // Usually your GitHub org/user name.
+	projectName: "hbot-info.github.io", // Usually your repo name.
+	trailingSlash: false, // https://docusaurus.io/docs/deployment#docusaurusconfigjs-settings
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -39,7 +40,7 @@ const config: Config = {
 					sidebarPath: "./sidebars.ts",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					// editUrl: "https://github.com/YarinNaftali/hbot-website",
+					// editUrl: "https://github.com/HBOT-INFO/hbot-info.github.io",
 				},
 				// blog: {
 				// 	showReadingTime: true,
@@ -81,7 +82,7 @@ const config: Config = {
 				},
 				// { to: "/blog", label: "Blog", position: "left" },
 				{
-					href: "https://github.com/YarinNaftali/hbot-website",
+					href: "https://github.com/HBOT-INFO/hbot-info.github.io",
 					label: "קוד מקור",
 					position: "right",
 				},
