@@ -10,7 +10,7 @@ const config: Config = {
 	favicon: "img/favicon.ico",
 
 	// Set the production url of your site here
-	url: "https://your-docusaurus-site.example.com",
+	url: "https://hyperbari.github.io",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: "/",
@@ -37,11 +37,13 @@ const config: Config = {
 			"classic",
 			{
 				docs: {
+					routeBasePath: "/",
 					sidebarPath: "./sidebars.ts",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					// editUrl: "https://github.com/hyperbari/hyperbari.github.io",
 				},
+				blog: false, // Optional: Disable blog if not needed
 				// blog: {
 				// 	showReadingTime: true,
 				// 	feedOptions: {
@@ -96,7 +98,7 @@ const config: Config = {
 					items: [
 						{
 							label: "כל המידע",
-							to: "/docs/intro",
+							to: "/", // change if the path to all info changes
 						},
 					],
 				},
