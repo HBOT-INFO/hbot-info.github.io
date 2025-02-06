@@ -98,7 +98,7 @@ const config: Config = {
 					items: [
 						{
 							label: "כל המידע",
-							to: "/docs/intro",
+							to: "/", // change if the path to all info changes
 						},
 					],
 				},
